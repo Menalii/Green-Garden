@@ -161,3 +161,38 @@ button:hover {
     margin: 10px 0;
     font-size: 14px;
   }
+
+  @media (max-width: 768px) {
+    .logoo img {
+        width: 250px;
+    }
+
+    .titulo h2 {
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+
+    .titulo p {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .cuadrote {
+        width: 90%;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    select {
+        padding: 5px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
